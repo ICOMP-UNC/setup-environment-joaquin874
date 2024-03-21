@@ -17,11 +17,10 @@ int multiply(int first_number, int second_number)
 
 double divide(int first_number, int second_number)
 {
-    if(second_number != 0)
+    if (second_number != 0)
     {
-        return (double) first_number / second_number;   
+        return (double)first_number / second_number;
     }
 
     return -1.0;
-    
 }

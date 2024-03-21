@@ -12,7 +12,7 @@ target_link_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/exter
 # Coverage (Optional)
 if(RUN_COVERAGE)
     message("Coverage enabled")
-    find_program(LCOV_PATH /usr/bin/lcov)
+    find_program(LCOV_PATH lcov)
         if(NOT LCOV_PATH)
         message(FATAL_ERROR "lcov not found! Aborting...")
     endif()

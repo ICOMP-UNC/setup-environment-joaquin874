@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include <greetings.h>
 #include "shared.h"
 #include "static.h"
+#include <greetings.h>
 
 int main(int argc, char *arcv[])
 {
